@@ -1,0 +1,8 @@
+{
+  "rules": {
+      "iot":{
+          ".read": true,
+          ".write": false
+      }
+  }
+}

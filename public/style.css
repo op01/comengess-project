@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+body{
+  font-family: 'Concert One', serif;
+}
+img{
+    padding: 5vh;
+}
+main{
+  padding-top:15vh;
+  text-align: center;
+  font-size:5rem;
+}
+#GG{
+  font-size:3em;
+}
+.hidden{
+    display: none;
+}
