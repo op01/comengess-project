@@ -61,8 +61,6 @@ function onData(val){
         setBackground(silver)
     }
 }
-var now=200
-var ddd;
 function up(){
     setup++;
     ez.innerHTML+='.'
@@ -70,14 +68,7 @@ function up(){
         setup=0
         clearInterval(setupInterval)
         if(lastVal)onData(lastVal)
-        setInterval(runDemo,50)
     }
-}
-function runDemo(){
-    if(now==200)ddd=-1
-    if(now==-50)ddd=1
-    now+=ddd
-    onData(now)
 }
 window.onload=function(){
     gg=document.getElementById("GG")
